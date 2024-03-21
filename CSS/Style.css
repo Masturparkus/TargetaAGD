@@ -1,0 +1,87 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    background: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.NUMEROS {
+    margin-top: 20px;
+}
+
+.NUMEROS a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-links a {
+        font-size: 14px;
+
+    }
+
+.fa-map-marker-alt {
+    margin-right: 10px; /* Ajusta el espacio entre el icono y el texto */
+}
+
+
+
+
+}
